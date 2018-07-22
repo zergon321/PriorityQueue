@@ -48,7 +48,7 @@ namespace PriorityQueueImplementation
         /// <summary>
         /// Initializes a new instance of the PriorityQueue<T> class with specified priority comparer.
         /// </summary>
-        /// <param name="priorityComparer">Comparer for sorting items by their priorities.</param>
+        /// <param name="priorityComparer">Comparer for prioritizing items.</param>
         public PriorityQueue(IComparer<int> priorityComparer)
         {
             innerQueues = new SortedDictionary<int, Queue<T>>(priorityComparer);
