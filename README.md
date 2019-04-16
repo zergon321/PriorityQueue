@@ -1,2 +1,2 @@
 # PriorityQueue
-My own implementation of priority queue data structure with C#.
+My own implementation of priority queue data structure in C#.
